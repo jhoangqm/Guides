@@ -16,11 +16,11 @@ Once you have everything noted above, you can start by configuring the external 
 
 In the OpenRC file you will need to retrieve the following information:
 
-export OS_AUTH_URL=https://auth.cloud.ovh.net/v3/
-export OS_USER_DOMAIN_NAME=${OS_USER_DOMAIN_NAME:-"Default"}
-export OS_USERNAME="xxxxxxxxxx"
-export OS_PASSWORD=$OS_PASSWORD_INPUT
-export OS_REGION_NAME="BHS"
+- export OS_AUTH_URL=https://auth.cloud.ovh.net/v3/
+- export OS_USER_DOMAIN_NAME=${OS_USER_DOMAIN_NAME:-"Default"}
+- export OS_USERNAME="xxxxxxxxxx"
+- export OS_PASSWORD=$OS_PASSWORD_INPUT
+- export OS_REGION_NAME="BHS"
 
 For the password, you can generate the password via the Public Cloud Users & Management interface by clicking "Generate a password" on the user.
 
